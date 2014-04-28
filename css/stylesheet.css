@@ -1,0 +1,177 @@
+/* Flair */
+.linkflair-python .linkflairlabel { background: #3581ba; color: white; width: 75px; text-align:center;}
+.linkflair-cpp .linkflairlabel { background: #f34b7d; color: white; width: 75px; text-align:center;}
+.linkflair-c .linkflairlabel { background: #555; color: white; width: 75px; text-align:center;}
+.linkflair-ruby .linkflairlabel { background: #701516; color: white; width: 75px; text-align:center;}
+.linkflair-d .linkflairlabel { background: #fcd46d; color: white; width: 75px; text-align:center;}
+.linkflair-java .linkflairlabel { background: #b07219; color: white; width: 75px; text-align:center;}
+.linkflair-javascript .linkflairlabel { background: #F7E91E; color: black; width: 75px; text-align:center;}
+.linkflair-shell .linkflairlabel { background: #5861ce; color: white; width: 75px; text-align:center;}
+.linkflair-scala .linkflairlabel { background: #7dd3b0; color: white; width: 75px; text-align:center;}
+.linkflair-objectivec .linkflairlabel { background: #f15501; color: white; width: 75px; text-align:center;}
+.linkflair-haskell .linkflairlabel { background: #29b544; color: white; width: 75px; text-align:center;}
+.linkflair-emacslisp .linkflairlabel { background: #c065db; color: white; width: 75px; text-align:center;}
+.linkflair-perl .linkflairlabel { background: #0298c3; color: white; width: 75px; text-align:center;}
+.linkflair-assembly .linkflairlabel { background: #a67219; color: white; width: 75px; text-align:center;}
+.linkflair-csharp .linkflairlabel { background: #53269B; color: white; width: 75px; text-align:center;}
+.linkflair-fortran .linkflairlabel { background: #4d41b1; color: white; width: 75px; text-align:center;}
+.linkflair-go .linkflairlabel { background: #8d04eb; color: white; width: 75px; text-align:center;}
+.linkflair-php .linkflairlabel { background: #6e03c1; color: white; width: 75px; text-align:center;}
+.linkflair-commonlisp .linkflairlabel { background: #3fb68b; color: white; width: 75px; text-align:center;}
+.linkflair-erlang .linkflairlabel { background: #949e0e; color: white; width: 75px; text-align:center;}
+
+.linkflair-other .linkflairlabel { background: #2B2B2A; color: white; width: 75px; text-align:center;}
+.linkflair-meta .linkflairlabel { background: #474745; color: white; width: 75px; text-align:center;}
+
+/*#header { background-color: #949699;}*/
+
+/* Mod red color - Not sure how to do it otherwise, could be changed */
+.comment .author[href$="Diastro"] { color: #FF0000; font-weight: bold;}
+.comment .author[href$="curlymaster"] { color: #FF0000; font-weight: bold;}
+.comment .author[href$="Chris911"] { color: #FF0000; font-weight: bold;}
+.comment .author[href$="CGP-Bot"] { color: #FF0000; font-weight: bold;}
+
+/*Change the word for 'readers' and the currently online*/
+.subscribers .word, .users-online .word{
+    display:none;
+}
+.subscribers .number:after {
+    content: " subscribers"
+}
+.users-online .number:after {
+    content: " bored devs right now"
+}
+
+/* Flair filerting */
+html:lang(se) .link:not(.linkflair-python):not(.linkflair-cpp):not(.linkflair-c):not(.linkflair-ruby):not(.linkflair-d):not(.linkflair-javascript):not(.linkflair-java):not(.linkflair-shell):not(.linkflair-scala):not(.linkflair-objectivec):not(.linkflair-haskell):not(.linkflair-emacslisp):not(.linkflair-perl):not(.linkflair-assembly):not(.linkflair-csharp):not(.linkflair-php):not(.linkflair-go):not(.linkflair-fortran):not(.linkflair-commonlisp):not(.linkflair-erlang) {
+    display: none
+}
+
+/* Flair filtering - Removes the search box result */
+html:lang(se) .raisedbox {
+    visibility: hidden;
+    height: 0;
+}
+html:lang(se) .search-summary {
+    visibility: hidden;
+    height: 0;
+}
+
+.side a[href$='#python']{
+    background: #3581ba;
+    color: white;
+}
+.side a[href$='#cpp']{
+    background: #f34b7d;
+    color: white;
+}
+.side a[href$='#ruby']{
+    background: #701516;
+    color: white;
+}
+.side a[href$='#d']{
+    background: #fcd46d;
+    color: white;
+}
+.side a[href$="#c"]{
+    background: #555;
+    color: white;
+}
+.side a[href$='#java']{
+    background: #b07219;
+    color: white;
+}
+.side a[href$='#javascript']{
+    background: #F7E91E;
+    color: black;
+}
+.side a[href$='#shell']{
+    background: #5861ce;
+    color: white;
+}
+.side a[href$='#scala']{
+    background: #7dd3b0;
+    color: white;
+}
+.side a[href$="#objectivec"]{
+    background: #f15501;
+    color: white;
+}
+.side a[href$='#haskell']{
+    background: #29b544;
+    color: white;
+}
+.side a[href$='#emacslisp']{
+    background: #c065db;
+    color: white;
+}
+.side a[href$='#perl']{
+    background: #0298c3;
+    color: white;
+}
+.side a[href$='#assembly']{
+    background: #a67219;
+    color: white;
+}
+.side a[href$="#csharp"]{
+    background: #53269B;
+    color: white;
+}
+.side a[href$='#fortran']{
+    background: #4d41b1;
+    color: white;
+}
+.side a[href$='#go']{
+    background: #8d04eb;
+    color: white;
+}
+.side a[href$='#php']{
+    background: #6e03c1;
+    color: white;
+}
+.side a[href$='#commonlisp']{
+    background: #3fb68b;
+    color: white;
+}
+.side a[href$="#erlang"]{
+    background: #949e0e;
+    color: white;
+}
+
+.side a[href$='#other']{
+    background: #2B2B2A;
+    color: white;
+}
+.side a[href$="#meta"]{
+    background: #474745;
+    color: white;
+}
+
+/* Link flair - Base of side links */
+.side a[href$='#python'], .side a[href$='#cpp'], .side a[href$='#ruby'], .side a[href$='#d'], .side a[href$="#c"], .side a[href$='#java'], .side a[href$='#javascript'], .side a[href$='#shell'], .side a[href$='#scala'], .side a[href$="#objectivec"], .side a[href$='#haskell'], .side a[href$='#emacslisp'], .side a[href$='#perl'], .side a[href$='#assembly'], .side a[href$="#csharp"], .side a[href$='#fortran'], .side a[href$='#go'], .side a[href$='#php'], .side a[href$='#commonlisp'], .side a[href$="#erlang"], .side a[href$="#other"], .side a[href$="#meta"]{
+    display: inline-block;
+    position: relative;
+    margin:5px;
+    border: 1px solid black;
+    font-size: 80%;
+    padding: 3px;
+    text-align:center;
+    width:125px;
+    filter:alpha(opacity=70); /* IE */
+    -moz-opacity:0.70; /* Mozilla */
+    opacity: 0.70; /* CSS3 */
+}
+
+.side a[href$='#python']:hover, .side a[href$='#cpp']:hover, .side a[href$='#ruby']:hover, .side a[href$='#d']:hover, .side a[href$="#c"]:hover, .side a[href$='#java']:hover, .side a[href$='#javascript']:hover, .side a[href$='#shell']:hover, .side a[href$='#scala']:hover, .side a[href$="#objectivec"]:hover, .side a[href$='#haskell']:hover, .side a[href$='#emacslisp']:hover, .side a[href$='#perl']:hover, .side a[href$='#assembly']:hover, .side a[href$="#csharp"]:hover, .side a[href$='#fortran']:hover, .side a[href$='#go']:hover, .side a[href$='#php']:hover, .side a[href$='#commonlisp']:hover, .side a[href$="#erlang"]:hover, .side a[href$="#other"]:hover, .side a[href$="#meta"]:hover{
+    display: inline-block;
+    position: relative;
+    margin:5px;
+    border: 1px solid black;
+    font-size: 80%;
+    padding: 3px;
+    text-align:center;
+    width:125px;
+    filter:alpha(opacity=100); /* IE */
+    -moz-opacity:0.99; /* Mozilla */
+    opacity: 0.99; /* CSS3 */
+}
