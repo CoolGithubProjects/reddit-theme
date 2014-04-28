@@ -175,3 +175,17 @@ html:lang(se) .search-summary {
     -moz-opacity:0.99; /* Mozilla */
     opacity: 0.99; /* CSS3 */
 }
+
+/* Style to the subs org on Github (in the sidebar) */
+.side [href$="https://github.com/CoolGithubProjects"]{
+    display: inline-block;
+    position: relative;
+    margin:5px;
+    border: 1px solid black;
+    font-size: 110%;
+    padding: 3px;
+    text-align:center;
+    width:280px;
+    background: #FF0000;
+    color: white;
+}
