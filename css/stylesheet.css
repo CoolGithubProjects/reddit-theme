@@ -8,17 +8,18 @@
 .linkflair-javascript .linkflairlabel { background: #F7E91E; color: black; width: 75px; text-align:center;}
 .linkflair-shell .linkflairlabel { background: #5861ce; color: white; width: 75px; text-align:center;}
 .linkflair-scala .linkflairlabel { background: #7dd3b0; color: white; width: 75px; text-align:center;}
-.linkflair-objectivec .linkflairlabel { background: #f15501; color: white; width: 75px; text-align:center;}
-.linkflair-haskell .linkflairlabel { background: #29b544; color: white; width: 75px; text-align:center;}
-.linkflair-emacslisp .linkflairlabel { background: #c065db; color: white; width: 75px; text-align:center;}
+.linkflair-objective-c .linkflairlabel { background: #438EFF; color: white; width: 75px; text-align:center;}
+.linkflair-haskell .linkflairlabel { background: #BCDC53; color: white; width: 75px; text-align:center;}
+.linkflair-emacs-lisp .linkflairlabel { background: #c065db; color: white; width: 75px; text-align:center;}
 .linkflair-perl .linkflairlabel { background: #0298c3; color: white; width: 75px; text-align:center;}
 .linkflair-assembly .linkflairlabel { background: #a67219; color: white; width: 75px; text-align:center;}
-.linkflair-csharp .linkflairlabel { background: #53269B; color: white; width: 75px; text-align:center;}
+.linkflair-csharp .linkflairlabel { background: #178600; color: white; width: 75px; text-align:center;}
 .linkflair-fortran .linkflairlabel { background: #4d41b1; color: white; width: 75px; text-align:center;}
-.linkflair-go .linkflairlabel { background: #8d04eb; color: white; width: 75px; text-align:center;}
-.linkflair-php .linkflairlabel { background: #6e03c1; color: white; width: 75px; text-align:center;}
-.linkflair-commonlisp .linkflairlabel { background: #3fb68b; color: white; width: 75px; text-align:center;}
-.linkflair-erlang .linkflairlabel { background: #949e0e; color: white; width: 75px; text-align:center;}
+.linkflair-go .linkflairlabel { background: #375eab; color: white; width: 75px; text-align:center;}
+.linkflair-php .linkflairlabel { background: #4F5D95; color: white; width: 75px; text-align:center;}
+.linkflair-common-lisp .linkflairlabel { background: #3fb68b; color: white; width: 75px; text-align:center;}
+.linkflair-erlang .linkflairlabel { background: #0faf8d; color: white; width: 75px; text-align:center;}
+.linkflair-swift .linkflairlabel { background: #ffac45; color: black; width: 75px; text-align:center;} /* Needs to be added to sidebar */
 
 .linkflair-other .linkflairlabel { background: #2B2B2A; color: white; width: 75px; text-align:center;}
 .linkflair-meta .linkflairlabel { background: #474745; color: white; width: 75px; text-align:center;}
@@ -35,16 +36,16 @@
 .subscribers .word, .users-online .word{
     display:none;
 }
-.subscribers .number:after {
+.subscribers .number:after { 
     content: " subscribers"
 }
-.users-online .number:after {
-    content: " bored devs right now"
+.users-online .number:after { 
+    content: " bored devs right now" 
 }
 
 /* Flair filerting */
 html:lang(se) .link:not(.linkflair-python):not(.linkflair-cpp):not(.linkflair-c):not(.linkflair-ruby):not(.linkflair-d):not(.linkflair-javascript):not(.linkflair-java):not(.linkflair-shell):not(.linkflair-scala):not(.linkflair-objectivec):not(.linkflair-haskell):not(.linkflair-emacslisp):not(.linkflair-perl):not(.linkflair-assembly):not(.linkflair-csharp):not(.linkflair-php):not(.linkflair-go):not(.linkflair-fortran):not(.linkflair-commonlisp):not(.linkflair-erlang) {
-    display: none
+    display: none 
 }
 
 /* Flair filtering - Removes the search box result */
@@ -94,11 +95,11 @@ html:lang(se) .search-summary {
     color: white;
 }
 .side a[href$="#objectivec"]{
-    background: #f15501;
+    background: #438EFF;
     color: white;
 }
 .side a[href$='#haskell']{
-    background: #29b544;
+    background: #BCDC53;
     color: white;
 }
 .side a[href$='#emacslisp']{
@@ -114,7 +115,7 @@ html:lang(se) .search-summary {
     color: white;
 }
 .side a[href$="#csharp"]{
-    background: #53269B;
+    background: #178600;
     color: white;
 }
 .side a[href$='#fortran']{
@@ -122,11 +123,11 @@ html:lang(se) .search-summary {
     color: white;
 }
 .side a[href$='#go']{
-    background: #8d04eb;
+    background: #375eab;
     color: white;
 }
 .side a[href$='#php']{
-    background: #6e03c1;
+    background: #4F5D95;
     color: white;
 }
 .side a[href$='#commonlisp']{
@@ -157,7 +158,6 @@ html:lang(se) .search-summary {
     padding: 3px;
     text-align:center;
     width:125px;
-    filter:alpha(opacity=70); /* IE */
     -moz-opacity:0.70; /* Mozilla */
     opacity: 0.70; /* CSS3 */
 }
@@ -171,7 +171,6 @@ html:lang(se) .search-summary {
     padding: 3px;
     text-align:center;
     width:125px;
-    filter:alpha(opacity=100); /* IE */
     -moz-opacity:0.99; /* Mozilla */
     opacity: 0.99; /* CSS3 */
 }
@@ -187,5 +186,18 @@ html:lang(se) .search-summary {
     text-align:center;
     width:280px;
     background: #FF0000;
+    color: white;
+}
+
+.side [href$="http://www.coolgithubprojects.com"]{
+    display: inline-block;
+    position: relative;
+    margin:5px;
+    border: 1px solid black;
+    font-size: 140%;
+    padding: 3px;
+    text-align:center;
+    width:280px;
+    background: #3db5d8;
     color: white;
 }
