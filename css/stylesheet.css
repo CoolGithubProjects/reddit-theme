@@ -180,7 +180,7 @@
     content: " bored devs right now" 
 }
 
-/* Flair filerting */
+/* Flair filtering */
 html:lang(se) .link:not(.linkflair-python):not(.linkflair-cpp):not(.linkflair-c):not(.linkflair-ruby):not(.linkflair-d):not(.linkflair-javascript):not(.linkflair-java):not(.linkflair-shell):not(.linkflair-scala):not(.linkflair-objectivec):not(.linkflair-haskell):not(.linkflair-emacslisp):not(.linkflair-perl):not(.linkflair-assembly):not(.linkflair-csharp):not(.linkflair-php):not(.linkflair-go):not(.linkflair-fortran):not(.linkflair-commonlisp):not(.linkflair-erlang) {
     display: none 
 }
@@ -289,25 +289,25 @@ html:lang(se) .search-summary {
 .side a[href$='#python'], .side a[href$='#cpp'], .side a[href$='#ruby'], .side a[href$='#d'], .side a[href$="#c"], .side a[href$='#java'], .side a[href$='#javascript'], .side a[href$='#shell'], .side a[href$='#scala'], .side a[href$="#objectivec"], .side a[href$='#haskell'], .side a[href$='#emacslisp'], .side a[href$='#perl'], .side a[href$='#assembly'], .side a[href$="#csharp"], .side a[href$='#fortran'], .side a[href$='#go'], .side a[href$='#php'], .side a[href$='#commonlisp'], .side a[href$="#erlang"], .side a[href$="#other"], .side a[href$="#meta"]{
     display: inline-block;
     position: relative;
-    margin:5px;
+    margin: 5px;
     border: 1px solid black;
     font-size: 80%;
     padding: 3px;
-    text-align:center;
-    width:125px;
-    -moz-opacity:0.70; /* Mozilla */
+    text-align: center;
+    width: 125px;
+    -moz-opacity: 0.70; /* Mozilla */
     opacity: 0.70; /* CSS3 */
 }
 
 .side a[href$='#python']:hover, .side a[href$='#cpp']:hover, .side a[href$='#ruby']:hover, .side a[href$='#d']:hover, .side a[href$="#c"]:hover, .side a[href$='#java']:hover, .side a[href$='#javascript']:hover, .side a[href$='#shell']:hover, .side a[href$='#scala']:hover, .side a[href$="#objectivec"]:hover, .side a[href$='#haskell']:hover, .side a[href$='#emacslisp']:hover, .side a[href$='#perl']:hover, .side a[href$='#assembly']:hover, .side a[href$="#csharp"]:hover, .side a[href$='#fortran']:hover, .side a[href$='#go']:hover, .side a[href$='#php']:hover, .side a[href$='#commonlisp']:hover, .side a[href$="#erlang"]:hover, .side a[href$="#other"]:hover, .side a[href$="#meta"]:hover{
     display: inline-block;
     position: relative;
-    margin:5px;
+    margin: 5px;
     border: 1px solid black;
     font-size: 80%;
     padding: 3px;
-    text-align:center;
-    width:125px;
+    text-align: center;
+    width: 125px;
     -moz-opacity:0.99; /* Mozilla */
     opacity: 0.99; /* CSS3 */
 }
@@ -316,12 +316,12 @@ html:lang(se) .search-summary {
 .side [href$="https://github.com/CoolGithubProjects"]{
     display: inline-block;
     position: relative;
-    margin:5px;
+    margin: 5px;
     border: 1px solid black;
     font-size: 110%;
     padding: 3px;
-    text-align:center;
-    width:280px;
+    text-align: center;
+    width: 280px;
     background: #FF0000;
     color: white;
 }
@@ -329,12 +329,12 @@ html:lang(se) .search-summary {
 .side [href$="http://www.coolgithubprojects.com"]{
     display: inline-block;
     position: relative;
-    margin:5px;
+    margin: 5px;
     border: 1px solid black;
     font-size: 140%;
     padding: 3px;
-    text-align:center;
-    width:280px;
+    text-align: center;
+    width: 280px;
     background: #3db5d8;
     color: white;
 }
